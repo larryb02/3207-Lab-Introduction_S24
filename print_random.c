@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include "random.h"
 
-int randchar();
 
 int main()
 {
@@ -20,12 +20,4 @@ int main()
 }
 
 
-int randchar()
-{
-	//pick a random int using rand function
-	//return that int between range of ASCII CHARS
-	
-	return rand();
 
-
-}
