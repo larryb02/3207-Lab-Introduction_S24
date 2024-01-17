@@ -13,7 +13,8 @@ int main()
 
 	printf("Today's random word: ");
 	for(a=0;a<7;a++)
-		putchar( randchar() );
+		// putchar( randchar() );
+		randchar();
 	putchar('\n');
 
 	return(0);
