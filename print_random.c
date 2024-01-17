@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-
+int randchar();
 
 int main()
 {
@@ -19,3 +19,13 @@ int main()
 	return(0);
 }
 
+
+int randchar()
+{
+	//pick a random int using rand function
+	//return that int between range of ASCII CHARS
+	
+	return rand();
+
+
+}
