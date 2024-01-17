@@ -1,5 +1,10 @@
 #include "random.h"
 
+int main()
+{
+    randchar();
+}
+
 int randchar()
 {
 	//pick a random int using rand function
